@@ -25,6 +25,7 @@ dependencies {
     compile 'com.android.support:appcompat-v7:23.0.1'
     compile 'com.android.support:design:23.0.1'
     compile 'com.squareup.okhttp:okhttp:2.5.0'
+    compile 'com.shanks.hongfa:sword:1.0.0'
    // compile 'com.taobao.pandora:lego:0.0.2-SNAPSHOT@aar'
   //  compile 'com.taobao.pandora:sword:0.0.10-SNAPSHOT'
 }

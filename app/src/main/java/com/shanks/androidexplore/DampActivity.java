@@ -3,6 +3,7 @@ package com.shanks.androidexplore;
 import android.animation.ValueAnimator;
 import android.app.Activity;
 import android.os.Bundle;
+import android.security.keystore.KeyInfo;
 import android.support.v4.view.PagerAdapter;
 import android.support.v4.view.ViewPager;
 import android.util.Log;
@@ -11,6 +12,7 @@ import android.view.MotionEvent;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.RelativeLayout;
+import android.widget.Toast;
 
 /**
  * Created by shanksYao on 1/29/16.
@@ -151,8 +153,9 @@ public class DampActivity extends Activity {
         findViewById(R.id.btn).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                viewPager.beginFakeDrag();
-                viewPager.fakeDragBy(200);
+             //   Toast.makeText(getBaseContext(), KeyInfo)
+               /* viewPager.beginFakeDrag();
+                viewPager.fakeDragBy(200);*/
                 //  viewPager.endFakeDrag();
             }
         });
@@ -161,7 +164,7 @@ public class DampActivity extends Activity {
             public void onClick(View v) {
               /*  viewPager.beginFakeDrag();
                 viewPager.fakeDragBy(200);*/
-                viewPager.endFakeDrag();
+               // viewPager.endFakeDrag();
             }
         });
 
